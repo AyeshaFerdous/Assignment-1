@@ -8,3 +8,41 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+
+/* nav styles start */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+nav .nav-item{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    text-align: left;
+}
+.nav-btn a{
+    text-decoration: none;
+    color: rgb(13, 19, 33 ,0.8);
+}
+.nav-btn{
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 23px;
+   letter-spacing: 0%;
+   text-align: center;
+   padding: 17px 24px 17px 24px;
+   border: 1px solid rgba(13, 19, 33);
+   border-radius: 8px;
+}
+/* nav styles end */
+
+/* banner section starts */
+
+
+/* banner section ends */
