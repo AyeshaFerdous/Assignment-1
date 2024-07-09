@@ -260,7 +260,6 @@ nav .nav-item{
   opacity: 0.7;
 }
 .current-sec-items button{
-    color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 700;
   line-height: 19px;
@@ -270,6 +269,10 @@ nav .nav-item{
   border: none;
   background-color: transparent;
   cursor: pointer;
+}
+.current-sec-items button a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
 }
 .html-bg{
     border-radius: 16px;
