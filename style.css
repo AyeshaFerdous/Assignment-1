@@ -18,7 +18,7 @@ body{
     letter-spacing: 0%;
     text-align: center;
     border: 1px solid rgba(13, 19, 33, 0.7);
-   
+    cursor: pointer;
 }
 .heading{
     color: rgb(13, 19, 33);
@@ -216,7 +216,71 @@ nav .nav-item{
     padding: 32px;
     margin: 38px 0;
 }
-
+.inspirational-video iframe{
+    border-radius: 16px;
+}
 
 /* inspiration section ends */
 
+/* current target section starts */
+.current-target-section{
+    width: 1140px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.current-target-section-container{
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 48px 0;
+}
+.current-sec-items{
+    width: 33.33%;
+    height: 100%;
+    padding: 40px;
+    margin: 0 24px;
+}
+.current-sec-items h4{
+    color: rgb(13, 19, 33);
+   font-size: 24px;
+   font-weight: 800;
+   line-height: 36px;
+   text-align: left;
+   margin: 8px 0;
+}
+.current-sec-items p{
+    color: rgb(13, 19, 33);
+   font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  opacity: 0.7;
+}
+.current-sec-items button{
+    color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: left;
+  text-decoration-line: underline;
+  margin: 24px 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.html-bg{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.css-bg{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.js-bg{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+/* current target section ends */
