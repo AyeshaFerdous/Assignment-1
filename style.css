@@ -78,6 +78,7 @@ nav .nav-item{
     background-position: center;
     margin: 50px 0;
     margin-bottom: 80px;
+    margin: 0 auto;
 }
 .banner-container{
     width: 998px;
@@ -427,6 +428,7 @@ nav .nav-item{
 #footer-sec{
     max-width: 1366px;
     height: 100px;
+    margin: 0 auto;
     padding: 32px 150px 32px 150px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
